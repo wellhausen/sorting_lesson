@@ -12,7 +12,7 @@
 
 ##### !question
 
-Given the following Quick Sort Algorithm, fill in the three missing variables within the angled brackets <>.
+Given the following Quick Sort Algorithm, fill in the three missing variables.
 
 ##### !end-question
 
@@ -34,16 +34,16 @@ def quick_sort(arr):
               current_position += 1
               temp = arr[i]
               arr[i] = arr[current_position]
-              arr[< 1) What variable goes here? >] = temp
+              arr[MISSING VARIABLE ONE] = temp
 
     temp = arr[0]
-    arr[0] = arr[< 2) And here? >] 
-    arr[current_position] = temp #Brings pivot to it's appropriate position
+    arr[0] = arr[current_position] 
+    arr[MISSING VARIABLE TWO] = temp #Brings pivot to it's appropriate position
     
     left = quick_sort(arr[0:current_position]) #Sorts the elements to the left of pivot
     right = quick_sort(arr[current_position+1:elements]) #sorts the elements to the right of pivot
 
-    arr = left + [arr[< 3) And here? >]] + right #Merging everything together
+    arr = left + [arr[MISSING VARIABLE THREE]] + right #Merging everything together
     
     return arr
 
@@ -65,7 +65,8 @@ import numpy as np
 
 class TestPython1(unittest.TestCase):
   def test_one(self):
-    self.assertEqual([1, 2, 3, 4, 6, 7], p.quick_sort())
+    array_to_be_sorted = [4,2,7,3,1,6]
+    self.assertEqual([1, 2, 3, 4, 6, 7], p.quick_sort(array_to_be_sorted))
 ```
 
 ##### !end-tests
@@ -73,7 +74,9 @@ class TestPython1(unittest.TestCase):
 <!-- other optional sections -->
 <!-- !hint - !end-hint (markdown, hidden, students click to view) -->
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+##### !explanation 
+Great work, you need to add current_position in all three places. 
+#### !end-explanation
 
 ### !end-challenge
 

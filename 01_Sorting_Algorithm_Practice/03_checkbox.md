@@ -17,7 +17,7 @@ What are the qualities of a heap sort?
 
 ##### !options
 
-* O(n) Space Complexity
+* O(n) space complexity
 * Best used with priority queues
 * Divide and conquer technique
 
