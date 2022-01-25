@@ -36,3 +36,33 @@ Standards:
   - Type: Lesson
     Path: /01_Sorting_Algorithm_Practice/07_python_snippet.md
     UID: 9eb1b1ec5437259bf816d8adbca5dba0
+- Title: Sorting Algorithm Practice 2
+  UID: 6a38eb213e162a03d097e266cb6ab842
+  Description: Sorting Algorithm Practice 2
+  SuccessCriteria:
+  - success criteria
+  ContentFiles:
+  - Type: Lesson
+    Path: /02_Sorting_Algorithm_Practice 2/00-welcome.md
+    UID: 57f84f837f5936085a15144f4470e87a
+  - Type: Lesson
+    Path: /02_Sorting_Algorithm_Practice 2/01_paragraph.md
+    UID: bcee552bf666d85f31af7b72325c3e76
+  - Type: Lesson
+    Path: /02_Sorting_Algorithm_Practice 2/02_multiple_choice.md
+    UID: de9f3d2ba0dee1561abb7cf63b8c1300
+  - Type: Lesson
+    Path: /02_Sorting_Algorithm_Practice 2/03_checkbox.md
+    UID: 2131c7369476fb58e6b460bde7114629
+  - Type: Lesson
+    Path: /02_Sorting_Algorithm_Practice 2/04_number.md
+    UID: de27451c19812103632e16882669cc0f
+  - Type: Lesson
+    Path: /02_Sorting_Algorithm_Practice 2/05_short_answer.md
+    UID: e30f481b344ef2af1ff144a704754ff6
+  - Type: Lesson
+    Path: /02_Sorting_Algorithm_Practice 2/06_ordering.md
+    UID: 7383c2f97837c14cbabce35deea309c2
+  - Type: Lesson
+    Path: /02_Sorting_Algorithm_Practice 2/07_python_snippet.md
+    UID: c3f9eb0670e980b5d009a19701445385
